@@ -32,6 +32,7 @@ const App = () => {
     <div className="App">
       <h1 className="Header">React Wars</h1>
       <h2>Page: {page}</h2>
+      <button onClick={()=>setPage(1)}>Start Page</button>
       <button onClick={()=>setPageHandle("p")}>Previous Page</button>
       <button onClick={()=>setPageHandle("n")}>Next Page</button>
       <div className="content">
