@@ -6,22 +6,38 @@ const NewCard=styled.div`
     background-color:rgba(0,0,0,.3);
     width:400px;
     margin:10px auto;
+    box-shadow:-2px -2px 6px #FFF;
+    &:hover{
+        box-shadow:3px 3px 3px 4px rgba(255,0,0,.5),-3px -3px 3px 4px rgba(255,0,0,.5);
+        transform: scaleY(1.2);
+        z-index: 2;
+        background-color:rgba(0,0,0,1);
+        h2{
+            color:white;
+        }
+        h3{
+            color:yellow;
+        }
+    }
     h2{
         font-size:1.5rem;
         text-align:center;
         margin-bottom:0px;
         color:yellow;
+        text-shadow:3px 3px 3px #000;
     }
     h3{
         font-size:1rem;
         padding:0px;
         margin:10px 0px;
         color:red;
+        text-shadow:3px 3px 3px #000;
     }
 `
 const ContentDiv=styled.div`
     display:flex;
     align-content:top;
+
     div{
         width:50%;
         text-align:left;

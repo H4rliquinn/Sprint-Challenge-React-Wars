@@ -6,9 +6,9 @@ import CharCard from "./components/CharCard.js"
 const App = () => {
 
   function setPageHandle(dir){
-    if (dir=="p"&&page>1){
+    if (dir==="p"&&page>1){
       setPage(page-1);
-    } else if (dir=="n"){
+    } else if (dir==="n"){
       setPage(page+1);
     }
   }
