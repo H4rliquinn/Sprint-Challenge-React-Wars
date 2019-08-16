@@ -28,11 +28,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What does it mean to _think_ in react?
 
+    #Thinking in React means planning how to break down an App into a higherarchy of modules that can push data one way and choosing the best place for the UI State to live.
+
 - [ ] Describe state.
+
+    #State is the current settings of all the user changeable items on you page. 
 
 - [ ] Describe props.
 
+    #Props are short of properties, basically arguments sent to a module further down the tree.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+    #Side effects are changes to the Dom that happen in relation to the main state change. Synching effects is done through the useEffect hook which can monitor for certain changes and issue side effects in response.
 
 ## Project Set Up
 
