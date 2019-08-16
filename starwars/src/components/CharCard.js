@@ -7,6 +7,7 @@ const NewCard=styled.div`
     width:400px;
     margin:10px auto;
     box-shadow:-2px -2px 6px #FFF;
+    border-radius:15px;
     &:hover{
         box-shadow:3px 3px 3px 4px rgba(255,0,0,.5),-3px -3px 3px 4px rgba(255,0,0,.5);
         transform: scaleY(1.2);
