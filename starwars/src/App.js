@@ -15,15 +15,13 @@ const App = () => {
       })
       .then(res => {
         setCharData(res.data);
-        console.log(res.data);
-      }).catch((err)=>{
+        // console.log(res.data);
+      })
+      .catch((err)=>{
         console.log("err",err);
       });
       
     }, []);
-
-
-// console.log(charData);
 
   return (
     <div className="App">
@@ -32,8 +30,6 @@ const App = () => {
       <CharCard charInfo={charData.results} />
     </div>
     </div>
-
-
   );
 }
 

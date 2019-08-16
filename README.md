@@ -28,7 +28,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What does it mean to _think_ in react?
 
-    #Thinking in React means planning how to break up an App into a higherarchy of modules that can push data one way and choosing the best place for the UI State to live.
+    #Thinking in React means planning how to break down an App into a higherarchy of modules that can push data one way and choosing the best place for the UI State to live.
 
 - [ ] Describe state.
 
