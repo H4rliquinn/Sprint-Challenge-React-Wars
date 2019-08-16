@@ -4,8 +4,8 @@ import styled from "styled-components";
 const NewCard=styled.div`
     border:2px dashed yellow;
     background-color:rgba(0,0,0,.3);
-    width:500px;
-    margin:0px auto;
+    width:400px;
+    margin:10px auto;
     h2{
         font-size:1.5rem;
         text-align:center;
@@ -37,10 +37,10 @@ function CharCard(props) {
     if (props.charInfo===undefined) return <h2>Loading...</h2>;
 
     return(
-        <div>
+        <div className="cardList">
             {props.charInfo.map(item => {
             return(
-                <NewCard>
+                <NewCard key={item.name}>
                     <h2>{item.name}</h2>
                     <ContentDiv>
                         <div>

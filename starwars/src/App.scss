@@ -5,4 +5,15 @@
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
+
+.cardList{
+  max-width:1000px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  width:100%;
+  margin:0px auto;
+
+}
+
 /* write your parent styles in here for your App.js */
